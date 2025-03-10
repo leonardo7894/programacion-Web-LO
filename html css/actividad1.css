@@ -1,0 +1,12 @@
+.contenedor2 {
+  color: white; /* modifica el color del texto*/
+  background-color: black; /*color del fondo*/
+  font-size: 70px; /* tamaño de la letra*/
+  font-family: Arial, Helvetica, sans-serif; /*tipo de fuente que tiene las letras*/
+  border: 20px solid yellowgreen; /*ancho tipo y color del borde*/
+  text-align: center; /*lugar donde se coloca el texto (centro, izquierda o derecha)*/
+  padding: 80px; /*se agranda desde dentro del recuadro */
+  margin: 300px; /*se agranda desde fuera del cuadro "se aleja"*/
+  border-radius: 50px; /*le da la curva al borde*/
+  display: flex; /*pone una al lado de la otra */
+}

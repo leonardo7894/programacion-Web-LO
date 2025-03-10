@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>ETEC</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <!-- div es una caja de ganera divisiones internas en la pagina web-->
+    <div class="contenedor">hola</div>
     <h1>titulo de la pagina</h1>
     <h2>subtitulo</h2>
     <p>texto</p>
-    
+
     <h2>listas</h2>
     <ul>
-        <!--lista no ordenada -->
-        <li>alumno 1</li>
-        <li>alumno 2</li>
-        <li>alumno 3</li>
+      <!--lista no ordenada -->
+      <li>alumno 1</li>
+      <li>alumno 2</li>
+      <li>alumno 3</li>
     </ul>
 
-    </ul>
-        <!--lista ordenada -->
-        <ol>alumno1</ol>
-        <ol>alumno2</ol>
-        <ol>alumno3</ol>
-    </ul>
+    <!--lista ordenada -->
+    <ol>
+      <li>alumno1</li>
+      <li>alumno2</li>
+      <li>alumno3</li>
+    </ol>
 
     <h2>ENLACES</h2>
-    <a href=" " target="_blank">ETEC</a><!--href lleva el link de la pagina y target _blank -->
+    <a href=" " target="_blank">ETEC</a
+    ><!--href lleva el link de la pagina y target _blank -->
 
     <h2>imgenes</h2>
-    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-rupKAjUK7jQ%2FT8-JUx6VmCI%2FAAAAAAAAeyE%2FYn_b9vMf5Ak%2Fs1600%2FHermosos-Arbol_Imagenes-HD-de-Arboles.jpg&f=1&nofb=1&ipt=598bbe637472dbbb854e689e0de61bdad7d4d73b6bd84f254e8a038c487c91a7&ipo=images" 
-    alt="imagen-test">  
-     <!--src lleva el link de la imagen y el ¿atl?-->
+    <img
+      src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-rupKAjUK7jQ%2FT8-JUx6VmCI%2FAAAAAAAAeyE%2FYn_b9vMf5Ak%2Fs1600%2FHermosos-Arbol_Imagenes-HD-de-Arboles.jpg&f=1&nofb=1&ipt=598bbe637472dbbb854e689e0de61bdad7d4d73b6bd84f254e8a038c487c91a7&ipo=images"
+      alt="imagen-test"
+    />
+    <!--src lleva el link de la imagen y el ¿atl?-->
 
-     <form action="procesar.js" method="post">
-        <label for="nombre">nombre</label>
-                
-        <input type="nombre"id="nombre" placeholder="nombre">
-        <label for="contraseña">contraseña</label>
-        <input type="password"
-             name="contraseña" 
-             id="contraseña"
-             placeholder="contraseña">
+    <form action="procesar.js" method="post">
+      <label for="nombre">nombre</label>
 
-<button type="submit">enviar</button>
-     </form>
-</body>
+      <input type="nombre" id="nombre" placeholder="nombre" />
+      <label for="contraseña">contraseña</label>
+      <input
+        type="password"
+        name="contraseña"
+        id="contraseña"
+        placeholder="contraseña"
+      />
+
+      <button type="submit">enviar</button>
+    </form>
+
+    <!--class recive lo que hay en el archivo .css-->
+  </body>
 </html>
