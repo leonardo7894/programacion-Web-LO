@@ -1,0 +1,51 @@
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.wallhere.com%2Fphotos%2F1b%2F34%2FPok_mon-1356823.jpg!d&f=1&nofb=1&ipt=88ceb66d4d322f0adc96fc52ae347e3e9abdb90d6db10faf63b611fd8a31a855);
+}
+
+.letras {
+  color: rgb(255, 230, 0);
+  text-align: center;
+}
+
+.cuadraditos {
+  width: 350px; /*largo*/
+  height: 37px; /*ancho*/
+  background-color: black;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) /*300px 300px 300px*/;
+  gap: 10px;
+  grid-auto-rows: auto;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 100px;
+  text-align: center;
+  width: 400px;
+  cursor: pointer;
+}
+
+.pokemon1 {
+  background-color: yellowgreen;
+}
+
+.pokemon2 {
+  background-color: orange;
+}
+
+.pokemon3 {
+  background-color: aqua;
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+}
+/*media query indica que vava ahber un cambio en las clases en este caso es para que las grillas se adapten al tamaño establecido*/
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
