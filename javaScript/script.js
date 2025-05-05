@@ -40,11 +40,48 @@ while(contador <= numero){
     console.log(`el contador esta en ${contador}`);
 }
 
-let numero4 = 4
-
-let suma = 0
-while(suma <= numero4 ){
-    
-   suma += suma
+let numero4 = 1;
+let suma = 0;
+while( numero4 >= 4){  
+   suma += numero4;
+   numero4++;
    console.log(`la suma da ${suma}`)
 }
+
+for(let i = 0; i <= 4; i++){
+    console.log(i)
+}
+
+let suma2 =0;
+
+for(let i =0; i >= 4; i++){
+    suma2 += i;
+    console.log("la suma de los numeros del 0 al 4 es:",suma2 )
+}
+
+const arrayNumero =[1,2,3,4,5,6]
+
+// metodos para manipular el array 
+// push(valor) -> agrega un elemento al final del arreglo (append de python)
+
+arrayNumero.push(10);
+console.log(arrayNumero[6])
+
+// pop borra el ultimo elemento de un arrgelo y lo guarda en una variable 
+const ultimo = arrayNumero.pop();
+console.log("ultimo", ultimo)
+
+console.log(arrayNumero)
+
+//elimina el primer valor de un arreglo
+const primero = arrayNumero.shift();
+console.log(primero)
+
+// unshift(valor) agrega un elemento al principio del arreglo 
+arrayNumeros.unshift("leo")
+console.log(arrayNumero)
+
+// map(funcion) crea un nuevo arreglo aplicando una funcion a cada elemento
+const nuevoArreglo = arrayNumero.map((item)=>{return item+1});
+console.log(nuevoArreglo);
+
